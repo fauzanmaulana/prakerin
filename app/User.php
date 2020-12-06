@@ -39,6 +39,6 @@ class User extends \TCG\Voyager\Models\User
 
     public function kelas()
     {
-        return $this->hasOne('App\Kelas', 'id');
+        return $this->hasOne('App\Kelas', 'id', 'kelas_id');
     }
 }

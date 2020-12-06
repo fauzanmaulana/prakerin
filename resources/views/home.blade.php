@@ -109,7 +109,7 @@
                             <i class="lni-cog"></i>
                         </div>
                         <div class="services-content mt-30">
-                            <h4 class="services-title"><a href="/perusahaan">akun siswa</a></h4>
+                            <h4 class="services-title"><a href="/siswa">akun siswa</a></h4>
                         </div>
                     </div> <!-- single services -->
                 </div>

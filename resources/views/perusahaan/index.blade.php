@@ -50,7 +50,7 @@
                         @if (!session('jurusan_id'))
                         <tr>
                             <th scope="row">{{$i++}}</th>
-                            <td>{{$perusahaan->jurusan->nama}}</td>
+                            <td>{{$perusahaan->jurusan ? $perusahaan->jurusan->nama : 'jurusan'}}</td>
                             <td>{{$perusahaan->nama}}</td>
                             <td>{{$perusahaan->alamat}}</td>
                             <td>{{$perusahaan->deskripsi}}</td>

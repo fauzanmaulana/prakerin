@@ -23,6 +23,7 @@
                         <th scope="col">Kemampuan</th>
                         <th scope="col">CV</th>
                         <th scope="col">prtofolio</th>
+                        <th scope="col">status</th>
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
@@ -37,6 +38,7 @@
                             <td>{{$siswa->depelover}}</td>
                             <td>{{$siswa->cv}}</td>
                             <td>{{$siswa->portofolio}}</td>
+                            <td>{{$siswa->status}}</td>
                             <td>
                                 <a href="{{ route('siswa.show', $siswa->id) }}" class="main-btn">Edit</a>
                             </td>

@@ -81,7 +81,7 @@
                                 <th scope="row">{{$i++}}</th>
                                 <td>{{$data->siswa->user->name}}</td>
                                 <td>{{$data->siswa->jurusan->nama}}</td>
-                                <td>{{$data->siswa->user->kelas->kelas}}</td>
+                                <td>{{$data->siswa->user->kelas ? $data->siswa->user->kelas->kelas :  'tidak ada kelas'}}</td>
                             </tr>
                         @endforeach
                     </tbody>

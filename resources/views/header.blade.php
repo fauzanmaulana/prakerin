@@ -42,10 +42,13 @@
                                                 <a class="dropdown-item px-3">ajukan perusahaan</a>
                                                 <a class="dropdown-item">kirim laporan</a>
                                                 <a class="dropdown-item">info prakerin</a>
+
                                                 @else
+
                                                 <a href="/pengajuan" class="dropdown-item px-3">pengajuan</a>
                                                 <a href="/perusahaan" class="dropdown-item">perusahaan</a>
                                                 <a  class="dropdown-item">jurusan</a>
+                                                <a class="dropdown-item" href="/siswa">Daftar siswa</a>
                                                 <a class="dropdown-item" href="/siswa/create">Tambahkan siswa</a>
                                             @endif
                                             <a class="dropdown-item" href="{{ route('logout') }}"
